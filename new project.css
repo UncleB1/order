@@ -1,0 +1,151 @@
+body{
+  font-family: sans-serif;
+  min-height: 60vh;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat:no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  position: relative;
+  font-size: 16px;
+  padding: 50px 0 150px;
+  place-items: center;
+  min-width: 10vh;
+}
+
+img{
+  max-width: 140%;
+}
+
+
+
+.mainContainer{
+  position: absolute;
+  left: 50%;
+  top:70%;
+  transform:translate(-50%, -50%);
+  max-width: 400px;
+  background-color:white;
+  border-radius:20px;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 100px;
+  padding-top:1px;
+}
+
+.title{
+  margin-left: 70px;
+  color: hsl(245, 30%, 41%);
+  margin-bottom: 30px;
+  font-weight: 100;
+  text-align: center; 
+  font-size: 20px;
+}
+
+.parag{
+  color: #656161; 
+  font-weight: 200;
+  font-size: medium;
+}
+
+.subContainer{
+  color: hsl(222, 41%, 54%);
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: start;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 90px;
+  background-color: rgb(230, 236, 241);
+  padding: 15px;
+}
+
+.subContainer.div{
+  padding-left: 900px
+}
+
+.subContainer img {
+  padding-left: 0px;
+
+  }
+
+.feature-container{
+  line-height: 10;
+  box-sizing: inherit;
+  padding-right:50px;
+}
+
+.feature-plan {
+  display:block;
+  line-height: 1.56;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.feature-cost{ 
+  display: block;
+  line-height: 1.56;
+  color: #8a8a8a;
+}
+
+.feature-link{
+  font-size: 17px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight:700 ;
+  color: rgb(26, 26, 91);
+  text-decoration: underline;
+  transition: 1s;
+}
+
+.feature-link:hover{
+  color: rgb(170, 66, 172);
+  text-decoration: none;
+}
+
+.proceed-btn{
+  display: block;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(43, 165, 226);
+  padding: 15px;
+  padding-left: 0px;
+  margin-left: 120px;
+  margin-right: 50px;
+  border-radius: 15px;
+  font-size: medium;
+  transition: 1s;
+}
+
+.proceed-btn:hover{
+  background-color: aqua;
+}
+
+.Cancel-btn{
+  line-height: 4;
+  text-decoration: none;
+  font-weight: 700;
+  color: #656161;
+  background-color: rgb(240, 246, 249);
+  padding-left: 0px;
+  margin-left: 170px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.Cancel-btn:hover{
+  background-color: rgb(187, 150, 94);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
